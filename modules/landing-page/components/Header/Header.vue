@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import Logo from '@/components/Logo/Logo.vue'
 
+const emit = defineEmits<{
+  (e: 'wants-be-creator'): void
+}>()
+
 </script>
 
 <template>
@@ -15,6 +19,7 @@ import Logo from '@/components/Logo/Logo.vue'
         
         <div class="hiddern md:flex items-center">
           <Button
+             @click="emit('wants-be-creator')"        
             label="Continuar como creator"
             icon-pos="right"
             icon="pi pi-arrow-right"

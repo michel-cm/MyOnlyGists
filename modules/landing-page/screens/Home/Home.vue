@@ -3,12 +3,18 @@ import Header from '@/modules/landing-page/components/Header/Header.vue'
 import Hero from '@/modules/landing-page/components/Hero/Hero.vue'
 import MainContent from '@/components/MainContent/MainContent.vue'
 
+const router = useRouter();
+
+const handleLogin = () => {
+  router.push('/auth/login')
+}
+
 </script>
 
 <template>
   <MainContent>
     <template #header>   
-      <Header />
+      <Header @wants-be-creator="handleLogin" />
     </template>
     <template #content>   
       <Hero />
