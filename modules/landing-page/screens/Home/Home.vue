@@ -17,7 +17,7 @@ const handleLogin = () => {
       <Header @wants-be-creator="handleLogin" />
     </template>
     <template #content>   
-      <Hero />
+      <Hero @wants-be-creator="handleLogin" />
     </template>
   </MainContent>
 </template>
