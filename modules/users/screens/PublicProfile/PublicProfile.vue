@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import PublicHeadline from '../components/PublicHeadline/PublicHeadline.vue';
 import WidgetGroup from '@/modules/reports/components/Widget/Group/Group.vue';
 import WidgetGroupLoader from '@/modules/reports/components/Widget/Group/loader.vue';
