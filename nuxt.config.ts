@@ -25,5 +25,9 @@ export default defineNuxtConfig({
       as: 'lara',
       from: '@/assets/presets/lara/' 
     }
+  },
+
+  imports: {
+    dirs: ['./composables/useMarkdown']
   }
 })
