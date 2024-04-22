@@ -1,8 +1,8 @@
-<script setup>
+<script setup lang="ts">
 import PublicHeadline from '../components/PublicHeadline/PublicHeadline.vue';
 import WidgetGroup from '@/modules/reports/components/Widget/Group/Group.vue';
-import WidgetGroupLoader from '@/modules/reports/components/Widget/Group/loader.vue';
-import WidgetCondensed from '@/modules/reports/components/Widget/Condensed/Condensed.vue';
+import WidgetGroupLoader from '~/modules/reports/components/Widget/Group/Loader.vue';
+import WidgetCondensed from '~/modules/reports/components/Widget/Condensed/Condensed.vue';
 
 </script>
 
