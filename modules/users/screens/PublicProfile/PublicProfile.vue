@@ -10,10 +10,14 @@ import WidgetCondensed from '~/modules/reports/components/Widget/Condensed/Conde
   <PublicHeadline />
 
   <WidgetGroup>
-    <WidgetGroupLoader :loading="true" :amount="3">
+    <WidgetGroupLoader :loading="false" :amount="3">
       <WidgetCondensed :value="10" label="Gists do total" />
       <WidgetCondensed :value="5" label="Gists gratuitos" />
       <WidgetCondensed :value="5" label="Gists pagos"/>
     </WidgetGroupLoader>
   </WidgetGroup>
+
+  <WidgetDefault title="Todos os gists">
+    gists
+  </WidgetDefault>
 </template>
